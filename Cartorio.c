@@ -129,6 +129,7 @@ int main()
 		printf("\t1 - Registar Nomes\n");
 		printf("\t2 - Consultar Nomes\n");
 		printf("\t3 - Excluir Nomes\n\n");
+		printf("\t4 - Sair do Programa\n\n");
 		
 		printf("Opção: ");
 		
@@ -152,7 +153,11 @@ int main()
 				exclui();
 				break;
 				
-			
+			case 4:
+				printf("Obrigado por utilizar o sistema, fim!\n");
+				return 0;
+				break;
+					
 			default:
 				printf("Opção Invalida\n");
 				system("pause");
